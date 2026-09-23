@@ -213,7 +213,7 @@
 
   /* CTA */
   .cta { position: relative; overflow: hidden; text-align: left; }
-  .cta .bg { position: absolute; inset: 0; background: url("assets/villa.jpg") center 40% / cover no-repeat; }
+  .cta .bg { position: absolute; inset: 0; background: url("villa.jpg") center 40% / cover no-repeat; }
   .cta::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgba(13,13,12,.95), rgba(13,13,12,.55)); }
   .cta .wrap { position: relative; z-index: 2; padding-block: clamp(100px, 14vw, 200px); display: grid; gap: 34px; justify-items: start; }
   .cta h2 { font-size: clamp(44px, 7vw, 104px); max-width: 12ch; }
@@ -358,9 +358,9 @@
 <!-- ================= HOME ================= -->
 <div class="page" data-page="home">
   <section class="hero">
-    <img class="poster" src="assets/hero-poster.jpg" alt="">
-    <video id="heroVid" autoplay muted loop playsinline preload="auto" poster="assets/hero-poster.jpg">
-      <source src="assets/hero.mp4" type="video/mp4">
+    <img class="poster" src="hero-poster.jpg" alt="">
+    <video id="heroVid" autoplay muted loop playsinline preload="auto" poster="hero-poster.jpg">
+      <source src="hero.mp4" type="video/mp4">
     </video>
     <div class="wrap">
       <span class="eyebrow">Luxury residences &amp; landmark construction</span>
@@ -411,17 +411,17 @@
       <div class="feat">
         <a class="pcard p1" data-open="palm">
           <span class="tag">Now selling</span>
-          <div class="img"><img src="assets/residences.jpg" alt="Palm Residences: glass-fronted villas beside landscaped pools" loading="lazy"><span class="ai">Artist's impression</span></div>
+          <div class="img"><img src="residences.jpg" alt="Palm Residences: glass-fronted villas beside landscaped pools" loading="lazy"><span class="ai">Artist's impression</span></div>
           <div class="cap"><div><h3>The Palm Residences</h3><div class="loc">Kakkanad, Kochi · Villas</div></div><span class="go"><i></i></span></div>
         </a>
         <a class="pcard p2" data-open="lagoon">
           <span class="tag">Under construction</span>
-          <div class="img"><img src="assets/lagoon.jpg" alt="Lagoon Pavilion: cantilevered building on the water" loading="lazy"><span class="ai">Artist's impression</span></div>
+          <div class="img"><img src="lagoon.jpg" alt="Lagoon Pavilion: cantilevered building on the water" loading="lazy"><span class="ai">Artist's impression</span></div>
           <div class="cap"><div><h3>The Lagoon Pavilion</h3><div class="loc">Vembanad, Kerala · Commercial</div></div><span class="go"><i></i></span></div>
         </a>
         <a class="pcard p3" data-open="kalari">
           <span class="tag">Completing 2026</span>
-          <div class="img"><img src="assets/villa.jpg" alt="Kalari House: brick, concrete and timber villa" loading="lazy"><span class="ai">Artist's impression</span></div>
+          <div class="img"><img src="villa.jpg" alt="Kalari House: brick, concrete and timber villa" loading="lazy"><span class="ai">Artist's impression</span></div>
           <div class="cap"><div><h3>Kalari House</h3><div class="loc">Thrissur · Private villa</div></div><span class="go"><i></i></span></div>
         </a>
       </div>
@@ -436,8 +436,8 @@
         <p>Drag the line to see a house at mid-build beside one of our finished villas. Both are built from the same concrete frame, exposed brick and full-height glazing.</p>
       </div>
       <div class="ba" id="ba" style="--pos:50%">
-        <img src="assets/site.jpg" alt="House under construction with scaffolding and crew">
-        <img class="after" src="assets/villa.jpg" alt="Finished contemporary villa at sunset">
+        <img src="site.jpg" alt="House under construction with scaffolding and crew">
+        <img class="after" src="villa.jpg" alt="Finished contemporary villa at sunset">
         <span class="handle"></span>
         <span class="lbl l">On site</span><span class="lbl r">Handover</span>
         <input type="range" min="0" max="100" value="50" id="baRange" aria-label="Compare the site under construction with the finished home">
@@ -463,9 +463,9 @@
   </section>
 
   <section class="reel">
-    <img src="assets/reel-poster.jpg" alt="">
-    <video id="reelVid" autoplay muted loop playsinline preload="auto" poster="assets/reel-poster.jpg">
-      <source src="assets/reel.mp4" type="video/mp4">
+    <img src="reel-poster.jpg" alt="">
+    <video id="reelVid" autoplay muted loop playsinline preload="auto" poster="reel-poster.jpg">
+      <source src="reel.mp4" type="video/mp4">
     </video>
     <div class="wrap">
       <span class="eyebrow">Engineering</span>
@@ -511,7 +511,7 @@
     </div>
     <p>Villas, residences and commercial landmarks across South India and the Gulf. Select a project to see its specification, status and possession date.</p>
   </div>
-  <div class="banner"><img src="assets/strip.jpg" alt="Evening view of residential towers and villas with pools"></div>
+  <div class="banner"><img src="strip.jpg" alt="Evening view of residential towers and villas with pools"></div>
   <div class="wrap">
     <div class="filters">
       <div class="chips" role="group" aria-label="Filter projects">
@@ -529,7 +529,7 @@
 <!-- ================= CONTACT ================= -->
 <div class="page" data-page="contact" hidden>
   <section class="chero">
-    <div class="bg"><img src="assets/towers.jpg" alt=""></div>
+    <div class="bg"><img src="towers.jpg" alt=""></div>
     <div class="wrap">
       <span class="eyebrow">Private appointments</span>
       <h1>Let's talk about <em>your home.</em></h1>
@@ -627,22 +627,22 @@
 <script>
 (function () {
   const PROJECTS = [
-    { id: 'palm', name: 'The Palm Residences', type: 'villa', typeL: 'Villas', loc: 'Kakkanad, Kochi', status: 'Now selling', img: 'assets/residences.jpg', size: 'wide tall',
+    { id: 'palm', name: 'The Palm Residences', type: 'villa', typeL: 'Villas', loc: 'Kakkanad, Kochi', status: 'Now selling', img: 'residences.jpg', size: 'wide tall',
       desc: 'Twenty-four glass-fronted villas set around landscaped water gardens, each with a private pool and a double-height living room that opens to the garden.',
       facts: [['Units', '24 villas'], ['Configuration', '4 & 5 BHK'], ['Built-up', '4,800–6,200 sq ft'], ['Possession', 'Dec 2027'], ['Starting', '₹4.8 Cr'], ['Plot', '6.5 acres']] },
-    { id: 'aurum', name: 'Aurum Heights', type: 'residence', typeL: 'Residences', loc: 'Whitefield, Bengaluru', status: 'Launching 2027', img: 'assets/towers.jpg', size: 'narrow tall',
+    { id: 'aurum', name: 'Aurum Heights', type: 'residence', typeL: 'Residences', loc: 'Whitefield, Bengaluru', status: 'Launching 2027', img: 'towers.jpg', size: 'narrow tall',
       desc: 'Three slender towers above a podium of garden villas. Each floor has only two sky residences, and every home has its own lift lobby.',
       facts: [['Units', '112 residences'], ['Configuration', '3 & 4 BHK'], ['Built-up', '2,650–3,900 sq ft'], ['Possession', 'Mar 2030'], ['Starting', '₹3.2 Cr'], ['Floors', 'G + 32']] },
-    { id: 'lagoon', name: 'The Lagoon Pavilion', type: 'commercial', typeL: 'Commercial', loc: 'Vembanad, Kerala', status: 'Under construction', img: 'assets/lagoon.jpg', size: '',
+    { id: 'lagoon', name: 'The Lagoon Pavilion', type: 'commercial', typeL: 'Commercial', loc: 'Vembanad, Kerala', status: 'Under construction', img: 'lagoon.jpg', size: '',
       desc: 'A cantilevered hospitality and events building rising from a backwater lagoon, with sloping concrete fins and a glass pavilion running the full width.',
       facts: [['Use', 'Hospitality & events'], ['Built-up', '68,000 sq ft'], ['Structure', 'Post-tensioned RCC'], ['Completion', 'Q3 2027'], ['Architect', 'In-house studio'], ['Status', '62% complete']] },
-    { id: 'glass', name: 'The Glasshouse', type: 'commercial', typeL: 'Commercial', loc: 'OMR, Chennai', status: 'Under construction', img: 'assets/glasshouse.jpg', size: '',
+    { id: 'glass', name: 'The Glasshouse', type: 'commercial', typeL: 'Commercial', loc: 'OMR, Chennai', status: 'Under construction', img: 'glasshouse.jpg', size: '',
       desc: 'Corporate offices wrapped in a curved double-glazed facade, supported by an exposed-concrete core and raised on sculpted columns.',
       facts: [['Use', 'Grade-A offices'], ['Built-up', '1.4 lakh sq ft'], ['Facade', 'Curved unitised glass'], ['Completion', 'Q1 2027'], ['Certification', 'IGBC Gold (target)'], ['Status', '48% complete']] },
-    { id: 'kalari', name: 'Kalari House', type: 'villa', typeL: 'Private villa', loc: 'Thrissur, Kerala', status: 'Completing 2026', img: 'assets/villa.jpg', size: 'wide',
+    { id: 'kalari', name: 'Kalari House', type: 'villa', typeL: 'Private villa', loc: 'Thrissur, Kerala', status: 'Completing 2026', img: 'villa.jpg', size: 'wide',
       desc: 'A private family home built with a board-marked concrete frame, hand-laid wire-cut brick and teak screens. The house is arranged around a shaded courtyard.',
       facts: [['Type', 'Custom design-build'], ['Configuration', '5 BHK'], ['Built-up', '7,400 sq ft'], ['Handover', 'Nov 2026'], ['Plot', '42 cents'], ['Status', 'Finishing stage']] },
-    { id: 'marina', name: 'Marina One', type: 'residence', typeL: 'Residences', loc: 'Dubai Marina, UAE', status: 'Sold out', img: 'assets/marina.jpg', size: 'narrow',
+    { id: 'marina', name: 'Marina One', type: 'residence', typeL: 'Residences', loc: 'Dubai Marina, UAE', status: 'Sold out', img: 'marina.jpg', size: 'narrow',
       desc: 'Waterfront residences with cantilevered infinity pools overlooking the marina. This was our first project for the Gulf market.',
       facts: [['Units', '86 residences'], ['Configuration', '2–4 BR'], ['Built-up', '1,450–4,100 sq ft'], ['Handover', 'Delivered 2025'], ['Amenities', 'Sky pool, marina deck'], ['Status', 'Sold out']] },
   ];
